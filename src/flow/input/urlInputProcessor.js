@@ -13,7 +13,7 @@ const { tap, map, flatMap, combineLatest, zip, concatMap, retry, switchMap, skip
 module.exports = class UrlInputProcessor {
 
 
-    gatherEbookData(urls) {
+    async gatherEbookData(urls) {
 
         const chapterDataSubject = new Subject();
 

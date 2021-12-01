@@ -15,7 +15,7 @@ module.exports = class ToEpubConverter {
         this.ifSingleUrlThenUseHtmlTitleAsFilename(epubData);
 
         const epub = new Streampub({ title: epubData.title, author: epubData.author });
-
+        //epub.zip.options.zlib.level=0;
         epub.pipe(writeableStream);
 
         return new Promise(resole => {

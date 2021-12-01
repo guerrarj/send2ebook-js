@@ -1,28 +1,31 @@
 {
-  "name": "send2ebook",
-  "preferGlobal": false,
-  "version": "1.5.2-2",
-  "author": "<mwoz123@github.com>",
-  "keywords": ["webpage", "article", "url", "convert", "epub", "stream", "ftp", "file"],
-  "description": "Converts urls to EPUB format and stores to ftp/local filesystem",
-  "license": "LGPL",
+  "name": "claudia-api-demo",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": ">=0.10"
-  },
   "scripts": {
     "start": "node ./example.js",
     "debug": "node --inspect --inspect-brk ./example.js"
   },
   "dependencies": {
     "absolutify": "~0.1.0",
-    "axios": "~0.18.0",
+    "archiver": "^5.3.0",
+    "async-zip-stream": "^1.1.0",
+    "aws-sdk": "^2.1029.0",
+    "axios": "^0.24.0",
     "basic-ftp": "^3.4.3",
+    "claudia-api-builder": "^4.1.2",
+    "epub-gen": "^0.1.0",
+    "express": "^4.17.1",
+    "filestorage": "^1.7.1",
     "htmltidy2": "~0.3.0",
     "jsdom": "^13.2.0",
+    "memorystream": "^0.3.1",
+    "node-zip": "^1.1.1",
+    "nodemailer": "^6.7.1",
     "rss-parser": "~3.4.3",
     "rxjs": "^6.4.0",
-    "sanitize-html": "~1.18.2",
+    "sanitize-html": "^2.5.3",
     "streampub": "^1.9.0"
   }
 }

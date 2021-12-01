@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia-api-demo-executor",
+    "name": "claudia-api-demo",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "flvm9vd519",
+    "module": "app"
+  }
+}
